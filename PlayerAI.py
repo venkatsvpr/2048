@@ -323,10 +323,7 @@ class PlayerAI(BaseAI):
         
     def big_four_corner(self,grid):
         end = grid.size-1
-        max1 = 0
-        max2 = 0
-        max3 = 0
-        max4 = 0
+        max1 = max2 = max3 = max4 = 0
         ret = 0
         m1x = m1y = m2x = m2y = m3x = m3y =m4x = m4y = grid.size
         for x in xrange(grid.size):
